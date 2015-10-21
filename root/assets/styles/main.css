@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+
+html {
+    min-width: 600px;
+}
+
+body {
+    
+}
+
+header {
+    background-color: #231F1F;
+    margin: -10 -10 0 -10;
+    padding: 0 0 10 0;
+}
+
+@font-face {
+    font-family: OstrichMediumBold;
+    src: url(../fonts/OstrichSans-Bold.otf);
+}
+
+@font-face {
+    font-family: OstrichHeavy;
+    src: url(../fonts/OstrichSans-Heavy.otf);
+}
+
+#site-id {
+    font-family: "OstrichMediumBold";
+    font-size: 100px;
+    color: #fff;
+}
+
+h2 {
+    font-family: "Didact Gothic";
+}
