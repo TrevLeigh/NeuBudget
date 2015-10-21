@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+
+html {
+    min-width: 600px;
+}
+
+body {
+    
+    background: url(../images/small-business-budgeting.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #231F1F;
+    margin: -10 -10 0 -10;
+    padding: 0 0 10 0;
+}
+
+.header-consistent {
+    color: #fff;
+}
+
+@font-face {
+    font-family: OstrichMediumBold;
+    src: url(../fonts/OstrichSans-Bold.otf);
+}
+
+@font-face {
+    font-family: OstrichHeavy;
+    src: url(../fonts/OstrichSans-Heavy.otf);
+}
+
+header .header-consistent {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "OstrichMediumBold";
+    font-size: 100px;
+}
+
+h2 {
+    font-family: "Didact Gothic";
+}
