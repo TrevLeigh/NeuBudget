@@ -10,8 +10,8 @@ body {
 
 header {
     background-color: #231F1F;
-    margin: -10 -10 0 -10;
-    padding: 0 0 10 0;
+    margin: -10 -8 0 -8;
+    padding-bottom: -20px;
 }
 
 @font-face {
@@ -26,8 +26,52 @@ header {
 
 #site-id {
     font-family: "OstrichMediumBold";
+    display: inline-block;
     font-size: 100px;
     color: #fff;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: -35px;
+}
+
+.header-link {
+    font-family: "Didact Gothic";
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: #27733B;
+}
+
+.header-link:active {
+    color: #27733B;
+}
+
+.nav-link {
+    font-size: 24px;
+    margin: 0 40;
+}
+
+#profile-options {
+    position: absolute;
+    top: -5;
+    right: 30;
+    color: #fff;
+    font-family: "Dicact Gothic";
+}
+
+#options-gear {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 15px;
+    top: 7px;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 h2 {
