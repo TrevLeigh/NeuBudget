@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
 
 html {
-    min-width: 600px;
+    min-width: 1740px;
 }
 
 body {
@@ -72,6 +72,21 @@ header {
 
 .inline-block {
     display: inline-block;
+}
+
+footer {
+    margin: 0 -8;
+    color: #fff;
+    background-color: #231F1F;
+}
+
+footer p {
+    font-family: "Didact Gothic";
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 0px;
 }
 
 h2 {
