@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+
+@font-face {
+    font-family: OstrichMediumBold;
+    src: url(../fonts/OstrichSans-Bold.otf);
+}
+
+@font-face {
+    font-family: OstrichHeavy;
+    src: url(../fonts/OstrichSans-Heavy.otf);
+}
+
+html{
+    background: linear-gradient(#265934, #fff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.menu{
+    list-style: none;
+    border: solid 1px #000;
+    background-color: #231f1f;
+    opacity: .88;
+}
+
+.menu a{
+   border: solid 1px #000; 
+    color:#fff;
+    font-size: 20pt;
+}
+
+#Content{
+    background-color: #231f1f;
+    border-radius: 0px 20px 20px 0px;
+    height: 400px;
+    opacity: .88;
+    color: #FFF;
+    display: block;
+}
