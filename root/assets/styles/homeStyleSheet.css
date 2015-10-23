@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+
+@font-face {
+    font-family: OstrichMediumBold;
+    src: url(../fonts/OstrichSans-Bold.otf);
+}
+
+@font-face {
+    font-family: OstrichHeavy;
+    src: url(../fonts/OstrichSans-Heavy.otf);
+}
+
+html{
+    background: linear-gradient(#265934, #fff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div{
+    position: relative;
+    border-width: 1px;
+    top: 50px;
+}
+
+div#Amount{
+    margin-right: 500px;
+    margin-left: 500px;
+}
+#Amount a{
+    display: inline-block;
+    background-color: #231F1F;
+    color: #fff;
+    border-radius: 15px 20px;
+    height: 30px;
+    width: 100px;
+    vertical-align: middle;
+    font-family: "Didact Gothic";
+    left:30px;
+}
+
+#Amount a:hover{
+    background-color: #fff;
+    color: #231F1F;
+}
+
+#budget-times{
+
+    text-align: center;
+    font-size: 15pt;
+}
+
+.activeLink{
+    background-color: #FFF !important;
+    color: #231F1F !important;
+}
+
+#Amount h1{
+    text-align: center;
+    font-family: "OstrichHeavy";
+    color:#FFF;
+    font-size: 40pt;
+}
+
+#Chart{
+    background-color: #231F1F;
+    opacity: 0.88;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 15px 20px;
+}
+
+#Chart{
+    padding-top: 10;
+    padding-bottom: 10;
+}
+#Chart img{
+    display: block;
+    margin: auto;
+}
+
+#Overview{
+    float: left;
+    margin-left: 500px;
+    background-color: #231f1f;
+    border-radius: 15px 20px;
+    opacity: 0.88;
+    color:#fff;
+    top: 90px;
+    width: 300px;
+    height: 400px;
+    
+}
+
+#Overview h2{
+    font-family: "OstrichHeavy";
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25pt;
+}
+
+#Overview p{
+    font-size: 18pt;
+    text-align: center;
+    font-family: "Didact Gothic";
+}
+
+#DailyTips{
+    margin-left: 1087px;
+    margin-right:500px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #231f1f;
+    border-radius: 15px 20px;
+    opacity: 0.88;
+    color:#fff;
+    top: 90px;
+    height: 400px;
+}
+
+#DailyTips h2{
+    font-family: "OstrichHeavy";
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25pt;
+}
+
+#DailyTips p{
+    font-family: "Didact Gothic";
+    text-indent: 15px;
+    font-size: 16pt;
+    margin-left: 30px;
+    margin-right:20px;
+}
+
+
+

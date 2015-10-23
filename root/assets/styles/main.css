@@ -85,11 +85,100 @@ h2 {
     font-family: "Didact Gothic";
 }
 
+#main-content {
+    background: linear-gradient(#255933, #fff) fixed;
+    margin: 0 -8 -20 -8;
+    padding-top: 5px;
+    padding-bottom: 125px;
+}
+
+#tip-stuff {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#tips-options {
+    font-family: "OstrichHeavy";
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+#tips-options ul{
+    list-style: none;
+}
+
+.collapse-arrow {
+    position: relative;
+    top: -4;
+    font-size: 12px;
+}
+
+.option {
+    color: #fff;
+    background-color: rgba(35,31,31,0.88);
+    padding: 15px 40px 15px 40px;
+}
+
+.option:hover {
+    background-color: #231F1F;
+    cursor: pointer;
+}
+
+.top-option {
+    font-size: 24px;
+    border-top-left-radius: 30px;
+}
+
+.bottom-option {
+    font-size: 24px;
+    border-bottom-left-radius: 30px;
+    background-color: #231F1F;
+}
+
+.sub-option {
+    font-size: 20px;
+}
+
+#tip-section {
+    display: inline-block;
+    background-color: #231F1F;
+    color: #fff;
+    font-family: "Didact Gothic";
+    font-size: 20px;
+    height: 500px;
+    position: relative;
+    top: -150px;
+    left: -4px;
+    
+    border-radius: 0 30px 30px 30px;
+}
+
+#tip-header {
+    position: relative;
+    top: -156px;
+    margin: 0 25px 0 80px;
+}
+
+#tip-body {
+    position: relative;
+    margin: 0 80px 0 0;
+    width: 250px;
+}
+
+#tip-section p {
+    display: inline-block;
+/*    margin: 0 40px;*/
+    padding: 40px 0px;
+}
+
 /* END MAIN CONTENT STYLING SECTION */
 
 /* BEGIN FOOTER STYLING SECTION */
 
 footer {
+/*    position: absolute;*/
+    
     margin: 0 -8;
     color: #fff;
     background-color: #231F1F;
