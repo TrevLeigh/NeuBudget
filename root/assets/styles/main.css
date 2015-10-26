@@ -172,6 +172,37 @@ h2 {
     padding: 40px 0px;
 }
 
+#form-title {
+    font-family: "OstrichHeavy";
+    color: #fff;
+    font-size: 30px;
+    padding: 30px 0px 0px 40px;
+}
+
+form {
+    background-color: #231F1F;
+    border-radius: 20px;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.checkbox {
+    margin-left: 40px;
+}
+
+.form-label {
+    position: relative;
+    top: -1px;
+    font-family: "Didact Gothic";
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form-sub-category {
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
 /* END MAIN CONTENT STYLING SECTION */
 
 /* BEGIN FOOTER STYLING SECTION */
