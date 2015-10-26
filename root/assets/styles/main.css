@@ -16,6 +16,8 @@ html {
 
 body {
     background: linear-gradient(#265934, #fff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* BEGIN HEADER STYLING SECTION */

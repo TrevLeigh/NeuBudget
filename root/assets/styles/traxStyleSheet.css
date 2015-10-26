@@ -105,3 +105,8 @@ html{
     top: 50px;
     left: 50px;
 }
+
+footer{
+    position: relative;
+    top: 206px;
+}
