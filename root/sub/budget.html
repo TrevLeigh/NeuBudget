@@ -6,23 +6,81 @@
     <body>
         <header>
             <section id="profile-options">
-                <a class="header-link" href=""><h3>log out, username</h3></a>
+                <a class="header-link" href="/NeuBudget/root/landing.html"><h3>log out, username</h3></a>
                 <img id="options-gear" class="inline-block" src="../assets/images/options-gear.png"/>
             </section>
-            <h1 id="site-id">NeuBudget</h1>
+            <a href="index.html"><h1 id="site-id">NeuBudget</h1></a>
             <a class="header-link nav-link" href="index.html"><h3>HOME</h3></a>
-            <a class="header-link nav-link" href=""><h3>BUDGET</h3></a>
-            <a class="header-link nav-link" href=""><h3>NEEDS/WANTS</h3></a>
+            <a class="header-link nav-link current" href="budget.html"><h3>BUDGET</h3></a>
+            <a class="header-link nav-link" href="needs.html"><h3>NEEDS/WANTS</h3></a>
             <a class="header-link nav-link" href="tips.html"><h3>TIPS</h3></a>
-            <a class="header-link nav-link" href=""><h3>TRAX</h3></a>
-            <a class="header-link nav-link" href=""><h3>SUBSCRIPTIONS</h3></a>
-            <a class="header-link nav-link" href=""><h3>ALERTS</h3></a>
+            <a class="header-link nav-link" href="trax.html"><h3>TRAX</h3></a>
+            <a class="header-link nav-link" href="subscriptions.html"><h3>SUBSCRIPTIONS</h3></a>
+            <a class="header-link nav-link" href="alerts.html"><h3>ALERTS</h3></a>
         </header>
-        <section>
-            
+        <section id="budget">
+            <h1>BUDGET</h1>
+            <hr/>
+            <table>
+                <tr>
+                    <td>Daily:</td>
+                    <td class="money">$20.00</td> 
+                </tr>
+                <tr>
+                    <td>Weekly:</td>
+                    <td class="money">$140.00</td>
+                </tr>
+                <tr>
+                    <td>Monthly:</td>
+                    <td class="money">$600.00</td>
+                </tr>
+                <tr>
+                    <td>Quarterly:</td>
+                    <td class="money">$1,800.00</td>
+                </tr>
+            </table>
+        </section>
+        <section id="expanded_budget">
+            <div id="expanded_budget_headers">
+                <h3>Name</h3>
+                <h3>Category</h3>
+                <h3>Amount</h3>
+            </div>
+            <hr/>
+            <div id="first_row">
+                <p>Rent</p>
+                <p>Monthly</p>
+                <p>$480.00</p>
+                <button id="first_button"><a href="edit.html">Edit</a></button>
+                <button>Delete</button>
+            </div>
+            <hr class="divider"/>
+            <div id="second_row">
+                <p>Food</p>
+                <p>Weekly</p>
+                <p id="second_money">$50.00</p>
+                <button id="second_button"><a href="edit.html">Edit</a></button>
+                <button>Delete</button>
+            </div>
+            <hr class="divider"/>
+            <button id="add_button"><a href="budget_add.html">Add +</a></button>
         </section>
         <footer>
             <p>Some sort of Copyright</p>
         </footer>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

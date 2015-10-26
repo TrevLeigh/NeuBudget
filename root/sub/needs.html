@@ -1,7 +1,6 @@
 <html>
     <head>
         <title>NeuBudget</title>
-        <link href="../assets/styles/homeStyleSheet.css" type="text/css" rel="stylesheet"/>
         <link type="text/css" rel="stylesheet" href="../assets/styles/main.css"/>
     </head>
     <body>
@@ -11,39 +10,54 @@
                 <img id="options-gear" class="inline-block" src="../assets/images/options-gear.png"/>
             </section>
             <a href="index.html"><h1 id="site-id">NeuBudget</h1></a>
-            <a class="header-link nav-link current" href="index.html"><h3>HOME</h3></a>
+            <a class="header-link nav-link" href="index.html"><h3>HOME</h3></a>
             <a class="header-link nav-link" href="budget.html"><h3>BUDGET</h3></a>
-            <a class="header-link nav-link" href="needs.html"><h3>NEEDS/WANTS</h3></a>
+            <a class="header-link nav-link current" href="needs.html"><h3>NEEDS/WANTS</h3></a>
             <a class="header-link nav-link" href="tips.html"><h3>TIPS</h3></a>
             <a class="header-link nav-link" href="trax.html"><h3>TRAX</h3></a>
             <a class="header-link nav-link" href="subscriptions.html"><h3>SUBSCRIPTIONS</h3></a>
             <a class="header-link nav-link" href="alerts.html"><h3>ALERTS</h3></a>
         </header>
-        <div id="Amount">
-            <section id="budget-times">
-                <a class="activeLink">Daily</a>
-                <a>Weekly</a>
-                <a>Monthly</a>
-                <a>Quarterly</a>
-            </section>
-            <h1>$0.00</h1>
-        </div>
-        <div id="Chart">
-            <img src="../assets/images/PieChart.png">
-        </div>
-        
-        <div id="Overview">
-            <h2>Daily Overview</h2>
-            <p>Rent: $0.00</p>
-            <p>Food: $0.00</p>
-        </div>
-        
-         <div id="DailyTips">
-             <h2>Daily Tips</h2>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi magna aliqua. </p>
+        <section id="list_headers">
+            <h1 id="needs">Needs</h1>
+            <h1 id="need_header"><a href="needs.html">Needs</a></h1>
+            <h1 id="wants"><a href="wants.html">Wants</a></h1>
+        </section>
+        <article id="need_list">
+            <div id="needs">
+                <table>
+                    <tr>
+                        <td>Rent:</td>
+                        <td class="money">$480.00 Monthly</td>
+                    </tr>
+                    <tr>
+                        <td>Food:</td>
+                        <td class="money">$50.00 Weekly</td>
+                    </tr>
+                </table>
+            </div>
+            <hr/>
+            <hr/>
+        </article>
+        <div id="list_total">
+            <p>Total: $530.00</p>
         </div>
         <footer>
             <p>Some sort of Copyright</p>
         </footer>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

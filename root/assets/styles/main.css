@@ -16,6 +16,8 @@ html {
 
 body {
     background: linear-gradient(#265934, #fff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* BEGIN HEADER STYLING SECTION */
@@ -55,6 +57,10 @@ header {
 .nav-link {
     font-size: 24px;
     margin: 0 40;
+}
+
+.current {
+    color:  #27733B;
 }
 
 #profile-options {
@@ -202,6 +208,348 @@ form {
     margin-left: 40px;
     padding-bottom: 40px;
 }
+
+#budget {
+    color: #fff;
+    background-color: #211D1D;
+    width: 400px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    text-align: center;
+}
+
+#budget hr {
+    margin-top: -35px;
+    margin-bottom: 25px;
+    border: none;
+    height: 3px;
+    color:#fff;
+    background-color: #fff;
+}
+
+#budget h1 {
+    font-family: "OstrichHeavy";
+    font-size: 40px;
+}
+
+#budget table {
+    color: #fff;
+    font-family: "Didact Gothic";
+    font-size: 30px;
+    text-align: left;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+.money {
+    text-align: right;
+    
+}
+
+#expanded_budget {
+    background-color: #211D1D;
+    width: 1000px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 14px;
+    text-align: center;
+    margin-bottom: 221px;
+}
+
+#expanded_budget_headers{
+    width: 765px;
+    text-align: left;
+    padding-top: 5px;
+}
+
+#expanded_budget h3{
+    color: #fff;
+    font-family: "OstrichHeavy";
+    font-size: 20px;
+    display: inline;
+    margin-left: 200px;
+}
+
+#expanded_budget h3:first-child {
+    margin-left: 50px;
+}
+
+#expanded_budget p{
+    color: #fff;
+    font-family: "Didact Gothic";
+    font-size: 36px;
+    display: inline;
+    margin-left: 150px;
+}
+
+#expanded_budget #first_row p:first-child{
+    margin-left: 20px;
+}
+
+#expanded_budget #first_row {
+    width: 1000px;
+}
+
+#first_button {
+    margin-left: 120px;
+}
+
+#expanded_budget #second_row p:first-child{
+    margin-left: 18px;
+}
+
+#expanded_budget #second_row {
+    width: 1000px;
+}
+
+#second_money {
+    padding-left: 6px;
+}
+
+#second_button {
+    margin-left: 143px;
+}
+
+#expanded_budget button {
+    background: #255933;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    border: none;
+    font-family: "Didact Gothic";
+    color: #ffffff;
+    font-size: 28px;
+    padding: 0px 15px 3px 15px;
+    text-decoration: none;
+    width: 100px;
+}
+
+#expanded_budget button a, button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#expanded_budget button:hover {
+    background: #2E6D3D;
+    text-decoration: none;
+}
+
+#expanded_budget hr {
+    border: none;
+    height: 2px;
+    color:#fff;
+    background-color: #fff;
+}
+
+.divider {
+    width: 960px;
+}
+
+#add_button {
+    margin-left: 874px;
+}
+
+article {
+    background-color: rgba(34,30,30,0.88);
+    width: 522px;
+    height: 410px;
+    border-radius: 14px;
+    margin:auto;
+    margin-top: 65px;
+    margin-bottom: 349px;
+    overflow: auto;
+}
+
+#input_box {
+    background-color: #D1D2D4;
+    height:58px;
+    width:390px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+#input_box h2 {
+    margin-left: 6px;
+    font-size: 38px;
+    color: #29733A;
+}
+
+article button {
+    background: #255933;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    border: none;
+    font-family: "Didact Gothic";
+    color: #ffffff;
+    font-size: 38px;
+    padding: 3px 20px 10px 20px;
+    margin-top: 35px;
+    margin-left: 172px;
+    text-decoration: none;
+}
+
+article button a, button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+article button:hover {
+    background: #2E6D3D;
+    text-decoration: none;
+}
+
+#already_member {
+    font-family: "Didact Gothic";
+    color: #28733A;
+    text-align: right;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #44A859;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#list_headers {
+    font-family: "OstrichHeavy";
+    font-size: 20px;
+    color: #fff;
+}
+
+#list_headers h1 {
+    background-color: #211D1D;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 65px;
+    border-radius: 14px;
+}
+
+#list_headers #needs {
+    margin-left: 667px;
+    padding-bottom: 30px;
+}
+
+#list_headers #need_header {
+    margin-top: -40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-left: 425px;
+}
+
+#list_headers #wants  {
+    margin-top: -18px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-left: 425px;
+    color: #28733A;
+    background-color: #fff;
+}
+
+#wants a:hover {
+    text-decoration: none;
+    color: #2E6D3D;
+}
+
+#need_header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#need_header a:hover {
+    text-decoration: none;
+    color: #B7B7B7;
+}
+
+#need_list {
+    background-color: #211D1D;
+    margin-top: -180px;
+    margin-left: 667px;
+    width: 670px;
+    margin-bottom: 0px;
+}
+
+#need_list table {
+    color: #fff;
+    font-family: "Didact Gothic";
+    font-size: 30px;
+    text-align: left;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    line-height: 50px
+}
+
+#need_list hr {
+    border: none;
+    height: 3px;
+    color:#fff;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: -66px;
+    margin-bottom: 116px;
+    width: 620px;
+}
+
+#list_total {
+    font-family: "Didact Gothic";
+    font-size: 27px;
+    margin-left: 1160px;
+    margin-top: -20px;
+    margin-bottom: 254px;
+}
+
+#list_headers #wants_header {
+    margin-left: 667px;
+    padding-bottom: 30px;
+    color: #28733A;
+    background-color: #fff;
+}
+
+#wants_list {
+    background-color: #fff;
+    margin-top: -180px;
+    margin-left: 667px;
+    width: 670px;
+    margin-bottom: 0px;
+}
+
+#wants_list table {
+    color: #28733A;
+    font-family: "Didact Gothic";
+    font-size: 30px;
+    text-align: left;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    line-height: 50px
+}
+
+#wants_list hr {
+    border: none;
+    height: 3px;
+    color:#28733A;
+    background-color: #28733A;
+    margin-bottom: 20px;
+    margin-top: -66px;
+    margin-bottom: 116px;
+    width: 620px;
+}
+
 
 /* END MAIN CONTENT STYLING SECTION */
 

@@ -41,6 +41,7 @@ div#Amount{
 #Amount a:hover{
     background-color: #fff;
     color: #231F1F;
+    cursor: pointer;
 }
 
 #budget-times{
@@ -107,13 +108,11 @@ div#Amount{
 #DailyTips{
     margin-left: 1087px;
     margin-right:500px;
-    border-style: solid;
-    border-width: 1px;
     background-color: #231f1f;
     border-radius: 15px 20px;
     opacity: 0.88;
     color:#fff;
-    top: 90px;
+    top: 63px;
     height: 400px;
 }
 
@@ -130,6 +129,11 @@ div#Amount{
     font-size: 16pt;
     margin-left: 30px;
     margin-right:20px;
+}
+
+footer{
+    position: relative;
+    top: 150px;
 }
 
 
