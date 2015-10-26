@@ -41,6 +41,7 @@ div#Amount{
 #Amount a:hover{
     background-color: #fff;
     color: #231F1F;
+    cursor: pointer;
 }
 
 #budget-times{
