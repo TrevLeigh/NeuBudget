@@ -72,9 +72,10 @@ article {
 
 button {
     background: #255933;
-    -webkit-border-radius: 14;
-    -moz-border-radius: 14;
-    border-radius: 14px;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    border: none;
     font-family: "Didact Gothic";
     color: #ffffff;
     font-size: 38px;
