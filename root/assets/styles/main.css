@@ -95,7 +95,7 @@ h2 {
     background: linear-gradient(#255933, #fff) fixed;
     margin: 0 -8 -20 -8;
     padding-top: 5px;
-    padding-bottom: 125px;
+    padding-bottom: 0px;
 }
 
 #tip-stuff {
@@ -136,14 +136,21 @@ h2 {
     border-top-left-radius: 30px;
 }
 
+.selected-option {
+    background-color: #231F1F;
+}
+
 .bottom-option {
     font-size: 24px;
     border-bottom-left-radius: 30px;
-    background-color: #231F1F;
 }
 
 .sub-option {
     font-size: 20px;
+}
+
+.option-header {
+    font-size: 24px;
 }
 
 #tip-section {
@@ -152,12 +159,12 @@ h2 {
     color: #fff;
     font-family: "Didact Gothic";
     font-size: 20px;
-    height: 500px;
+    height: 650px;
     position: relative;
-    top: -150px;
+    top: -372px;
     left: -4px;
-    
     border-radius: 0 30px 30px 30px;
+    margin-bottom: -300px;
 }
 
 #tip-header {
