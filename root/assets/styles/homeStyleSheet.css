@@ -130,6 +130,7 @@ div#Amount{
     opacity: 0.88;
     color:#fff;
     top: 63px;
+    width: 300px;
     height: 400px;
 }
 

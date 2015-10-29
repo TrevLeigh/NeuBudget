@@ -167,6 +167,20 @@ h2 {
     margin-bottom: -300px;
 }
 
+#trax-section{
+   display: inline-block;
+    background-color: #231F1F;
+    color: #fff;
+    font-family: "Didact Gothic";
+    font-size: 20px;
+    height: 650px;
+    position: relative;
+    top: -625px;
+    left: 300px;
+    border-radius: 0 30px 30px 30px;
+    margin-bottom: -300px; 
+}
+
 #tip-header {
     position: relative;
     top: -156px;
@@ -177,6 +191,23 @@ h2 {
     position: relative;
     margin: 0 80px 0 0;
     width: 250px;
+}
+
+#trax-header{
+    position: relative;
+    top: 20px;
+    left: 170px;
+    margin: 0 25px 0 80px;
+}
+
+#trax-body{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    left: 40px;
+    top: 50px;
+    margin: 0 80px 0 0;
+    border-radius: 30px 30px 30px 30px;
 }
 
 #tip-section p {
