@@ -714,6 +714,7 @@ a:hover {
     width: 380px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
 }
 
 #con_but {
@@ -722,7 +723,9 @@ a:hover {
     font-family: "Didact Gothic";
     font-size: 20px;
     border-radius: 14px;
+    padding-top: 4px;
     padding-bottom: 5px;
+    border: none;
     color:#fff;
     background-color: #28733A;
     cursor:pointer;
@@ -732,6 +735,11 @@ a:hover {
 
 #con_but a {
     color:#fff;
+}
+
+#con_but:hover {
+    background-color: #08531A;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 #pin-title {
