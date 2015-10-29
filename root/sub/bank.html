@@ -6,7 +6,7 @@
     <body>
         <header>
             <section id="profile-options">
-                <a class="header-link" href="/NeuBudget/root/landing.html"><h3>log out, username</h3></a>
+                <a class="header-link" href="../landing.html"><h3>log out, username</h3></a>
                 <img id="options-gear" class="inline-block" src="../assets/images/options-gear.png"/>
             </section>
             <a href="index.html"><h1 id="site-id">NeuBudget</h1></a>
@@ -17,14 +17,22 @@
         </header>
         <section id="main-content">
             <form>
-                <h1 id="form-title">Alerts</h1>
+                <h1 class="form-title">Need to Buy</h1>
+            </form>
+            <form>
+                <h1 class="form-title">Recently Purchased</h1>
+            </form>
+            <form>
+                <h1 class="form-title">Alerts</h1>
                 <input class="checkbox" type="checkbox"/>
                 <label class="form-label">Alert me when there's a successful login to my account</label>
                 <p></p>
                 <input class="checkbox" type="checkbox" checked/>
-                <label class="form-label">Alert me when my budget ceiling is close to being reached</label>
+                <label class="form-label">Alert me</label>
                 <p></p>
                 <section class="form-sub-category">
+                    <label class="form-label sub-header">When my budget ceiling is close to being reached:</label>
+                    <p></p>
                     <input class="checkbox" type="checkbox" checked/>
                     <label class="form-label">$20 from ceiling</label>
                     <p></p>
@@ -34,6 +42,14 @@
                     <input class="checkbox" type="checkbox"/>
                     <label class="form-label">Other amount</label>
                     <input type="text"/>
+                    <p></p>
+                    <label class="form-label sub-header">By specified method:</label>
+                    <p></p>
+                    <input class="checkbox" type="checkbox" checked/>
+                    <label class="form-label">Phone/Text</label>
+                    <p></p>
+                    <input class="checkbox" type="checkbox"/>
+                    <label class="form-label">Email</label>
                 </section>
             </form>
         </section>
