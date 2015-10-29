@@ -1,7 +1,6 @@
 <html>
-     <head>
+    <head>
         <title>NeuBudget</title>
-        <link href="../assets/styles/traxStyleSheet.css" type="text/css" rel="stylesheet"/>
         <link type="text/css" rel="stylesheet" href="../assets/styles/main.css"/>
     </head>
     <body>
@@ -16,23 +15,29 @@
             <a class="header-link nav-link current" href="tips.html"><h3>TIPS</h3></a>
             <a class="header-link nav-link" href="bank.html"><h3>BANK ACCOUNT</h3></a>
         </header>
-        <ul class="menu">
-            <li><a class="option top-option">Red Line</a></li>
-            <li><a class="mid mid-option">Blue Line</a></li>
-            <li><a class="bottom mid-option">Green Line</a></li>
-        </ul>
-
-        <div id="Content">
-            <section id="leftSection">
-                <h2>Library/225 E 400 S</h2>
-                <img src="../assets/images/images.jpg">
+        <section id="main-content">
+            <section id="tip-stuff">
+                <nav id="tips-options">
+                    <ul>
+                        <li class="option option-header top-option"> FOR WHERE YOU LIVE <span class="collapse-arrow">&#9660;</span></li> 
+                        <li class="option sub-option">City Station</li>
+                        <li class="option sub-option">Tower</li>
+                        <li class="option sub-option">Eastside</li>
+                        <li class="option sub-option">Mercer</li>
+                        <li class="option sub-option">Commute</li>
+                        <a href="tips.html"><li class="option option-header">FOR EVERYONE</li></a>
+                        <a href="trax.html"><li class="option option-header selected-option"> TRAX FREE ZONES <span class="collapse-arrow">&#9660;</span></li></a>
+                        <li class="option sub-option">Red Line</li>
+                        <li class="option sub-option">Blue Line</li>
+                        <li class="option sub-option bottom-option">Green Line</li>
+                    </ul>
+                </nav>
+                <aside id="tip-section">
+                    <p id="tip-header"></p>
+                    <p id="tip-body"></p>
+                </aside>
             </section>
-            <section id="rightSection">
-                <h2>Court House/450 S Main Street</h2>
-                <img src="../assets/images/images2.jpg">
-            </section> 
-        
-        </div>
+        </section>
         <footer>
             <p>Some sort of Copyright</p>
         </footer>

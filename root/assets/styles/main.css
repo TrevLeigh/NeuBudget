@@ -11,7 +11,7 @@
 }
 
 html {
-    min-width: 1740px;
+    min-width: 1150px;
 }
 
 body {
@@ -93,7 +93,7 @@ h2 {
 
 #main-content {
     background: linear-gradient(#255933, #fff) fixed;
-    margin: 0 -8 -20 -8;
+    margin: 0px -8px 20px -8px;
     padding-top: 5px;
     padding-bottom: 0px;
 }
