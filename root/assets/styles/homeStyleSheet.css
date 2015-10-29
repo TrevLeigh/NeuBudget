@@ -79,6 +79,23 @@ div#Amount{
     margin: auto;
 }
 
+#Chart a {
+    font-size: 24pt;
+    font-family: "Didact Gothic";
+    color: #fff;
+}
+
+#chart_a {
+    font-size: 18pt;
+    font-family: "Didact Gothic";
+    color: #fff;
+    width: 40px;
+    margin-left: auto;
+    margin-right: 600px;
+    padding-bottom: 50px;
+    margin-top: -70px;
+}
+
 #Overview{
     float: left;
     margin-left: 500px;

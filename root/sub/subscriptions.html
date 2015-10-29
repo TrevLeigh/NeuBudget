@@ -1,7 +1,6 @@
 <html>
-     <head>
+    <head>
         <title>NeuBudget</title>
-        <link href="../assets/styles/subsStyleSheet.css" type="text/css" rel="stylesheet"/>
         <link type="text/css" rel="stylesheet" href="../assets/styles/main.css"/>
     </head>
     <body>
@@ -16,20 +15,96 @@
             <a class="header-link nav-link" href="tips.html"><h3>TIPS</h3></a>
             <a class="header-link nav-link" href="bank.html"><h3>BANK ACCOUNT</h3></a>
         </header>
-        <ul class="menu">
-            <li><a class="option top-option">Netflix</a></li>
-            <li><a class="mid mid-option">Amazon Prime</a></li>
-            <li><a class="bottom mid-option">+ Add New</a></li>
-        </ul>
-
-        <div id="Content">
-            <h2>Monthly Cost: $7.99</h2>
-            <h2>Total Cost Per Year: $95.88</h2>
-            <h2>Etc.</h2>
-        
+        <section id="budget">
+            <h1>BUDGET</h1>
+            <hr/>
+            <table>
+                <tr>
+                    <td>Daily:</td>
+                    <td class="money">$20.00</td> 
+                </tr>
+                <tr>
+                    <td>Weekly:</td>
+                    <td class="money">$140.00</td>
+                </tr>
+                <tr>
+                    <td>Monthly:</td>
+                    <td class="money">$600.00</td>
+                </tr>
+                <tr>
+                    <td>Quarterly:</td>
+                    <td class="money">$1,800.00</td>
+                </tr>
+            </table>
+        </section>
+        <section id="expanded_budget">
+            <div id="expanded_budget_headers">
+                <h3>Name</h3>
+                <h3>Category</h3>
+                <h3>Amount</h3>
+            </div>
+            <hr/>
+            <div id="first_row">
+                <p>Rent</p>
+                <p>Monthly</p>
+                <p>$480.00</p>
+                <button id="first_button"><a href="edit.html">Edit</a></button>
+                <button>Delete</button>
+            </div>
+            <hr class="divider"/>
+            <div id="second_row">
+                <p>Food</p>
+                <p>Weekly</p>
+                <p id="second_money">$50.00</p>
+                <button id="second_button"><a href="edit.html">Edit</a></button>
+                <button>Delete</button>
+            </div>
+            <hr class="divider"/>
+            <button id="add_button"><a href="budget_add.html">Add +</a></button>
+        </section>
+        <section id="list_headers">
+            <h1 id="subscriptions_header">Subscriptions</h1>
+            <h1 id="need_header"><a href="budget.html">Needs</a></h1>
+            <h1 id="wants"><a href="wants.html">Wants</a></h1>
+            <h1 id="subscriptions"><a href="subscriptions.html">Subscriptions</a></h1>
+        </section>
+        <article id="subscriptions_list">
+            <div id="subscriptions">
+                <table>
+                    <tr>
+                        <td>Netflix:</td>
+                        <td class="per_month">Monthly: $7.99</td>
+                        <td class="per_year">Yearly: $95.88</td>
+                    </tr>
+                    <tr>
+                        <td>Amazon Prime:</td>
+                        <td class="per_month">Monthly: $8.25</td>
+                        <td class="per_year">Yearly: $99.00</td>
+                    </tr>
+                </table>
+            </div>
+            <hr/>
+            <hr/>
+        </article>
+        <div id="list_total">
+            <p>Total: $74.99</p>
         </div>
         <footer>
             <p>Some sort of Copyright</p>
         </footer>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
